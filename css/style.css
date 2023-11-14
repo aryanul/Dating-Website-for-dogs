@@ -1,0 +1,67 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  padding-bottom: 0;
+  margin: 0;
+}
+/* .grid{
+  padding-bottom: 0%;
+} */
+.d-grid{
+  justify-content: center;
+}
+/* .phone{
+  justify-items: center;
+} */
+/* .tnw{
+  align-self: center;
+} */
+/* .price{
+  display: flex;
+  justify-content: center;
+} */
+.text-bg-dark {
+  color: #fff!important;
+  background-color: RGBA(33,37,41,var(--bs-bg-opacity,1))!important;
+}
+.pebbles{
+  margin-top: 30px;
+  border-radius: 50%;
+  height: 100px;
+}
+/* #title{
+  padding-bottom: 0%;
+} */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.download{
+  width: 400px;
+}
+.start{
+  padding-bottom: 0%;
+}
+
+.feedback{
+  background-color: whitesmoke;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
